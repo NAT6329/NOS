@@ -83,7 +83,7 @@ loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/3b2169cf53bc61
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/realredz/BloxFruits/refs/heads/main/Source.lua"))()
   end
   }) AddButton(Tab3o, {
-     Name = "Bee swarm",
+     Name = "Atlas v1.0",
     Callback = function()
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/Chris8889/atlasbss/main/script.lua"))()
   end
