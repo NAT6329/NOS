@@ -30,9 +30,9 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
       })
       
 ------ Tab
-     local Tab1o = MakeTab({Name = "MAIN"})
-     local Tab2o = MakeTab({Name = "Link"})
-     local Tab3o = MakeTab({Name = "a"})
+     local Tab1o = MakeTab({Name = "BloxPC"})
+     local Tab2o = MakeTab({Name = "BloxPE"})
+     local Tab3o = MakeTab({Name = "Bee"})
      
      
 -------TOGGLE 
@@ -64,7 +64,31 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
 getgenv().AutoLoad = false --Will Load Script On Server Hop
 loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/3b2169cf53bc6104dabe8e19562e5cc2.lua"))()
   end
-  })   
+  })
+------- BUTTON
+    
+    AddButton(Tab2o, {
+     Name = "HiruHub",
+    Callback = function()
+	  loadstring(game:HttpGet('https://raw.githubusercontent.com/mizuharasup/cutaypremium/refs/heads/main/premium.lua'))()
+  end
+  }) AddButton(Tab2o, {
+     Name = "QUANTUM Hub",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/Trustmenotcondom/QTONYX/refs/heads/main/QuantumOnyx.lua"))()
+  end
+  }) AddButton(Tab2o, {
+     Name = "Redz",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/realredz/BloxFruits/refs/heads/main/Source.lua"))()
+  end
+  }) AddButton(Tab3o, {
+     Name = "Bee swarm",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/Chris8889/atlasbss/main/script.lua"))()
+  end
+  })
+   
 ----- Dropdown 
 
   Dropdown = AddDropdown(Tab1o, {
