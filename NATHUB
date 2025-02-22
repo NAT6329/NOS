@@ -21,7 +21,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
   })
 
        MinimizeButton({
-       Image = "http://www.roblox.com/asset/?id=128933802535491",
+       Image = "http://www.roblox.com/asset/?id=119404407935309",
        Size = {60, 60},
        Color = Color3.fromRGB(10, 10, 10),
        Corner = true,
@@ -32,7 +32,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
 ------ Tab
      local Tab1o = MakeTab({Name = "BloxPC"})
      local Tab2o = MakeTab({Name = "BloxPE"})
-     local Tab3o = MakeTab({Name = "Bee"})
+     local Tab3o = MakeTab({Name = "More"})
      
      
 -------TOGGLE 
@@ -86,6 +86,13 @@ loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/3b2169cf53bc61
      Name = "Atlas v1.0",
     Callback = function()
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/Chris8889/atlasbss/main/script.lua"))()
+  end
+  }) AddButton(Tab3o, {
+     Name = "Lucky",
+    Callback = function()
+	  pcall(function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/n0raxd/lucky-block-stuff/refs/heads/main/this-shit-so-old.lua",true))()
+end)
   end
   })
    
